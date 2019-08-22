@@ -5,11 +5,11 @@ for (let i = 0; i < iconsDec.length; i++) {
 }
 delete iconsDec;
 
-function JSmoji(inputID) {
+function JSmoji(inputID, iconWidth = 18, iconHeight = 18) {
     let menuID = Math.random().toString(36).substr(2, 5);
 
     let menuButton = document.createElement('button');
-    menuButton.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" fill="#a5a5a5" width="18" height="18" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 14h-12c.331 1.465 2.827 4 6.001 4 3.134 0 5.666-2.521 5.999-4zm-9.5-6c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5zm7 0c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5z"/></svg>';
+    menuButton.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" fill="#a5a5a5" width="' + iconWidth + '" height="' + iconHeight + '" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 14h-12c.331 1.465 2.827 4 6.001 4 3.134 0 5.666-2.521 5.999-4zm-9.5-6c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5zm7 0c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5z"/></svg>';
     menuButton.style.cssText = 'cursor: pointer;background: none;border: none;outline: 0;margin-left: -40px;height: 20px;width: 35px;transform: translateY(5px);'
     menuButton.onclick = function () {
         let activeMenu = document.getElementById(menuID);
@@ -21,7 +21,7 @@ function JSmoji(inputID) {
     };
 
     let menu = document.createElement('div');
-    menu.style.cssText = 'width: 205px; padding: 5px; position: absolute; transform: translateY(5px); border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 6px; max-height: 250px; overflow-y: scroll; display: flex; flex-wrap: wrap;';
+    menu.style.cssText = 'width: 205px; padding: 5px; position: absolute; transform: translateY(5px); border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 6px; max-height: 250px; overflow-y: scroll; display: none; flex-wrap: wrap;';
     menu.id = menuID;
     menu.innerHTML = menuHtml;
 

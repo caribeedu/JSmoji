@@ -5,7 +5,7 @@ function JSmoji(divID, iconWidth = 18, iconHeight = 18) {
 
     let menuButton = document.createElement('button');
     menuButton.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" fill="#a5a5a5" width="' + iconWidth + '" height="' + iconHeight + '" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 14h-12c.331 1.465 2.827 4 6.001 4 3.134 0 5.666-2.521 5.999-4zm-9.5-6c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5zm7 0c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5z"/></svg>';
-    menuButton.style.cssText = 'cursor: pointer;background: none;border: none;outline: 0;float: right;height: 20px;width: 35px;transform: translateY(2.5px);'
+    menuButton.style.cssText = 'cursor: pointer;background: none;border: none;outline: 0;float: right;height: 20px;width: 35px;transform: translateY(7.5px);'
     menuButton.onclick = function () {
         let activeMenu = document.getElementById(menuID);
 
@@ -27,12 +27,22 @@ function JSmoji(divID, iconWidth = 18, iconHeight = 18) {
 
     let editableDiv = document.createElement('div');
     editableDiv.contentEditable = true;
-    editableDiv.style.cssText = 'min-height: 25px;border: 1px solid #d9d9d9;border-radius: 2.5px;margin: 0;';
+    editableDiv.style.cssText = 'padding: 5px 2.5px 5px 5px;min-height: 22.5px;border: 1px solid #d9d9d9;border-radius: 2.5px;margin: 0;outline: 0;';
 
     let parent = document.getElementById(divID);
     parent.appendChild(menuButton);
     parent.appendChild(editableDiv);
     parent.appendChild(menu);
+
+    document.body.addEventListener("click", function () {
+        let activeMenu = document.getElementById(menuID);
+        if (activeMenu.style.display == 'flex') {
+            activeMenu.style.display = 'none';
+        }
+    }, false);
+    parent.addEventListener("click", function (ev) {
+        ev.stopPropagation();
+    }, false);
 }
 
 function insertEmoji(div, emojiDec) {

@@ -1,6 +1,6 @@
 let smileEmojis = {
     "name": "smileEmojis",
-    "icon": "<svg style='width: 20px; height: 22.5px; fill: #a5a5a5;' viewBox='0 0 25 20'><path d='M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 14h-12c.331 1.465 2.827 4 6.001 4 3.134 0 5.666-2.521 5.999-4zm-9.5-6c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5zm7 0c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5z'/></svg>",
+    "icon": "<svg style='width: 20px; height: 22.5px; fill: #2472f1;' viewBox='0 0 25 20'><path d='M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 14h-12c.331 1.465 2.827 4 6.001 4 3.134 0 5.666-2.521 5.999-4zm-9.5-6c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5zm7 0c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5z'/></svg>",
     "decimals": [128512, 128515, 128516, 128513, 128518, 128517, 129315, 128514, 128578, 128579, 128521, 128522, 128519, 129392, 128525, 129321, 128536, 128535, 128538, 128537, 128523, 128539, 128540, 129322, 128541, 129297, 129303, 129325, 129323, 129300, 129296, 129320, 128528, 128529, 128566, 128527, 128530, 128580, 128556, 129317, 128524, 128532, 128554, 129316, 128564, 128567, 129298, 129301, 129314, 129326, 129319, 129397, 129398, 129396, 128565, 129327, 129312, 129395, 128526, 129299, 129488, 128533, 128543, 128577, 128558, 128559, 128562, 128563, 129402, 128550, 128551, 128552, 128560, 128549, 128546, 128557, 128561, 128534, 128547, 128542, 128531, 128553, 128555, 128548, 128545, 128544, 129324, 128520, 128127, 128128, 128169, 129313, 128121, 128122, 128123, 128125, 128126, 129302, 128570, 128568, 128569, 128571, 128572, 128573, 128576, 128575, 128574, 128139, 128075, 129306, 128400, 9995, 128406, 128076, 9996, 129310, 129311, 129304, 129305, 128072, 128073, 128070, 128405, 128071, 9757, 128077, 128078, 9994, 128074, 129307, 129308, 128079, 128588, 128080, 129330, 129309, 128591, 9997, 128133, 129331, 128170, 129461, 129462, 128066, 128067, 129504, 129463, 129460, 128064, 128065, 128069, 128068, 128118, 129490, 128102, 128103, 129489, 128113, 128104, 129492, 128113, 128104, 128104, 128104, 128104, 128105, 128113, 128105, 128105, 128105, 128105, 129491, 128116, 128117, 128589, 128589, 128589, 128590, 128590, 128590, 128581, 128581, 128581, 128582, 128582, 128582, 128129, 128129, 128129, 128587, 128587, 128587, 128583, 128583, 128583, 129318, 129318, 129318, 129335, 129335, 129335, 128104, 128105, 128104, 128105, 128104, 128105, 128104, 128105, 128104, 128105, 128104, 128105, 128104, 128105, 128104, 128105, 128104, 128105, 128104, 128105, 128104, 128105, 128104, 128105, 128104, 128105, 128104, 128105, 128104, 128105, 128104, 128105, 128110, 128110, 128110, 128373, 128373, 128373, 128130, 128130, 128130, 128119, 128119, 128119, 129332, 128120, 128115, 128115, 128115, 128114, 129493, 129333, 128112, 129328, 129329, 128124, 127877, 129334, 129464, 129464, 129464, 129465, 129465, 129465, 129497, 129497, 129497, 129498, 129498, 129498, 129499, 129499, 129499, 129500, 129500, 129500, 129501, 129501, 129501, 129502, 129502, 129502, 129503, 129503, 129503, 128134, 128134, 128134, 128135, 128135, 128135, 128694, 128694, 128694, 127939, 127939, 127939, 128131, 128378, 128372, 128111, 128111, 128111, 129494, 129494, 129494, 129496, 128109, 128107, 128108, 128143, 128104, 128105, 128145, 128104, 128105, 128106, 128104, 128104, 128104, 128104, 128104, 128104, 128104, 128104, 128104, 128104, 128105, 128105, 128105, 128105, 128105, 128104, 128104, 128104, 128104, 128104, 128105, 128105, 128105, 128105, 128105, 128100, 128101, 128099, 129523, 127746, 129525, 129526, 128083, 129405, 129404, 128084, 128085, 128086, 129507, 129508, 129509, 129510, 128087, 128088, 128089, 128090, 128091, 128092, 128093, 127890, 128094, 128095, 129406, 129407, 128096, 128097, 128098, 128081, 128082, 127913, 127891, 129506, 128132, 128141, 128188]
 };
 let animalsEmojis = {
@@ -53,27 +53,33 @@ function JSmoji(divID, iconWidth = 18, iconHeight = 18) {
 
     let menuHeader = document.createElement('div');
     let menuEmojis = document.createElement('div');
-    let menuHtml = "";
+    let menuHtml = '';
     for (let i = 0; i < allEmojis.length; i++) {
         let menuHeaderButton = document.createElement('button');
+        menuHeaderButton.className = 'buttonSection';
         menuHeaderButton.innerHTML = allEmojis[i].icon;
-        menuHeaderButton.style.cssText = 'outline: 0;width: 25px;padding: 0;margin: 0 5px;background: transparent;border: 0;';
+        menuHeaderButton.style.cssText = 'outline: 0;width: 25px;padding: 0;margin: 0 7.5px;background: transparent;border: 0;';
         menuHeaderButton.onclick = function () {
             var menus = document.getElementById(menuID).querySelectorAll(".emojiSection");
+            var buttons = document.getElementById(menuID).querySelectorAll(".buttonSection");
             for (let i = 0; i < menus.length; i++) {
-                menus[i].style.display = "none";
+                menus[i].style.display = 'none';
+                buttons[i].children[0].style.fill = '#a5a5a5';
             }
 
+            this.children[0].style.fill = '#2472f1';
+
             let activeSection = document.getElementsByClassName(allEmojis[i].name)[0];
-            activeSection.style.display = "flex";
+            activeSection.style.display = 'flex';
         };
         menuHeader.appendChild(menuHeaderButton);
         menuHtml += createSubmenu(allEmojis[i], divID);
     }
     menuEmojis.innerHTML = menuHtml;
+    menuEmojis.style.cssText = 'margin: 10px 0 0 7px';
 
     let menu = document.createElement('div');
-    menu.style.cssText = 'width: 270px; padding: 5px; position: absolute; transform: translateY(5px); border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 6px; max-height: 250px; overflow-y: scroll; display: none; flex-wrap: wrap;';
+    menu.style.cssText = 'width: 310px; padding: 5px; position: absolute; transform: translateY(5px); border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 6px; max-height: 250px; overflow-y: scroll; display: none; flex-wrap: wrap;';
     menu.id = menuID;
     menu.appendChild(menuHeader);
     menu.appendChild(menuEmojis);
@@ -105,7 +111,7 @@ function insertEmoji(div, emojiDec) {
 function createSubmenu(emojiColletion, divID) {
     let html = '<div class="emojiSection ' + emojiColletion.name + '" style="display: flex;flex-wrap: wrap;">';
     for (let i = 0; i < emojiColletion.decimals.length; i++) {
-        html += '<div style="flex: 1 0 15%; margin: 0 2px; cursor: pointer; user-select: none" onclick="insertEmoji(' + divID + ', ' + emojiColletion.decimals[i] + ')">&#' + emojiColletion.decimals[i] + ';</div>';
+        html += '<div style="flex: 1 0 13%; margin: 5px 2.5px; cursor: pointer; user-select: none" onclick="insertEmoji(' + divID + ', ' + emojiColletion.decimals[i] + ')">&#' + emojiColletion.decimals[i] + ';</div>';
     }
     html += '</div>';
     return html;

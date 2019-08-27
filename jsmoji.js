@@ -58,7 +58,7 @@ function JSmoji(divID, iconWidth = 18, iconHeight = 18) {
         let menuHeaderButton = document.createElement('button');
         menuHeaderButton.className = 'buttonSection';
         menuHeaderButton.innerHTML = allEmojis[i].icon;
-        menuHeaderButton.style.cssText = 'outline: 0;width: 25px;padding: 0;margin: 0 7.5px;background: transparent;border: 0;';
+        menuHeaderButton.style.cssText = 'outline: 0;width: 8.5%;padding: 0;margin: 0 7.5px;background: transparent;border: 0;';
         menuHeaderButton.onclick = function () {
             var menus = document.getElementById(menuID).querySelectorAll(".emojiSection");
             var buttons = document.getElementById(menuID).querySelectorAll(".buttonSection");
@@ -76,17 +76,18 @@ function JSmoji(divID, iconWidth = 18, iconHeight = 18) {
         menuHtml += createSubmenu(allEmojis[i], divID);
     }
     menuEmojis.innerHTML = menuHtml;
-    menuEmojis.style.cssText = 'margin: 10px 0 0 7px';
+    menuEmojis.style.cssText = 'margin: 5px 0px 0px 12.5px;padding: 5px;';
+    menuHeader.style.cssText = 'position: sticky; top: 0px; transform: translate(11px, -1px); width: 92.5%; padding-bottom: 5px; background-color: white;';
 
     let menu = document.createElement('div');
-    menu.style.cssText = 'width: 310px; padding: 5px; position: absolute; transform: translateY(5px); border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 6px; max-height: 250px; overflow-y: scroll; display: none; flex-wrap: wrap;';
+    menu.style.cssText = 'width: 310px; position: absolute; transform: translateY(5px); border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 6px; max-height: 250px; overflow-y: scroll; display: none; flex-wrap: wrap;';
     menu.id = menuID;
     menu.appendChild(menuHeader);
     menu.appendChild(menuEmojis);
 
     let editableDiv = document.createElement('div');
     editableDiv.contentEditable = true;
-    editableDiv.style.cssText = 'padding: 5px 2.5px 5px 5px;min-height: 22.5px;border: 1px solid #d9d9d9;border-radius: 2.5px;margin: 0;outline: 0;';
+    editableDiv.style.cssText = 'padding: 5px;min-height: 22.5px;border: 1px solid #d9d9d9;border-radius: 2.5px;margin: 0;outline: 0;';
 
     let parent = document.getElementById(divID);
     parent.appendChild(menuButton);

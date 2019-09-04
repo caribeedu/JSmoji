@@ -1,6 +1,8 @@
 # JSmoji
 The simple library for adding emojis to your projects.
 
+![](https://media.giphy.com/media/fXtJfd4DXDUeGFzv2I/giphy.gif)
+
 ## Installation and Use
 
 1. Add emoji.js to your project
